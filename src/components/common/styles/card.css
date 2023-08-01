@@ -17,18 +17,30 @@
 }
 
 .card-icon {
-	font-size: 15px;
-	color: var(--tertiary-color);
+	font-size: 25px;
+	/* color: var(--tertiary-color); */
+}
+
+.hr {
+	width: 80%; /* Set the width to span the entire container */
+	height: 1px; /* Adjust the height of the line */
+	background: linear-gradient(
+		to right,
+		transparent,
+		#6c757d,
+		transparent
+	); /* Faded gradient effect */
+	margin: 5px 0; /* Add some margin for spacing */
 }
 
 .card-title {
 	color: var(--secondary-color);
-	font-size: 14px;
+	font-size: 20px;
 	padding-left: 20px;
-	font-weight: 650;
+	/* font-weight: 650; */
 }
 
 .card-body {
-	padding-top: 40px;
+	padding-top: 20px;
 	font-size: 15px;
 }

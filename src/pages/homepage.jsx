@@ -3,19 +3,14 @@ import { Helmet } from "react-helmet";
 
 import { faMailBulk, faCode } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faTwitter,
-	faGithub,
-	faStackOverflow,
-	faInstagram,
-	faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
+import Skills from "../components/homepage/skills";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
@@ -102,14 +97,8 @@ const Homepage = () => {
 							</div>
 
 							<div className="homepage-first-area-right-side">
-								<div className="homepage-image-container">
-									<div className="homepage-image-wrapper">
-										<img
-											src="homepage.jpg"
-											alt="about"
-											className="homepage-image"
-										/>
-									</div>
+								<div className="homepage-works">
+									<Skills />
 								</div>
 							</div>
 						</div>

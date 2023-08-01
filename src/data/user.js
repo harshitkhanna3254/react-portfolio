@@ -13,7 +13,7 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full Stack / Distributed Systems Engineer",
+		title: "Harshit Khanna",
 		description: `I'm Harshit. I have a strong background in working with distributed systems, having spent 2.5 years as a Software Engineer at UnitedHealth Group.
 			Currently, I am pursuing my Masters at Rice University, where I am focusing on the exciting field of Data Science to expand my skill set and knowledge.`,
 	},
