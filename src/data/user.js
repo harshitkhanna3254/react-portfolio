@@ -26,6 +26,11 @@ const INFO = {
 			`,
 	},
 
+	resume: {
+		title: "Read about my work experience",
+		description: "lorem",
+	},
+
 	articles: {
 		title: "I like to write sometimes",
 		description: `Welcome to my articles page. This is where you'll find my long-form writing on the things I'm most passionate about: music, guitar, and philosophy.

@@ -1,10 +1,12 @@
-.articles-logo-container {
+@import "../../data//styles.css";
+
+.resume-logo-container {
 	display: flex;
 	justify-content: left;
 	padding-top: 25px;
 }
 
-.articles-logo {
+.resume-logo {
 	display: flex;
 	position: fixed;
 	border: 1px solid white;
@@ -13,95 +15,112 @@
 	top: 4vh;
 }
 
-/* .articles-main-container {
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-	margin: 0;
-	padding-top: 120px;
+.card {
+	mix-blend-mode: normal;
+	border-radius: 20px;
+	outline: 2px solid #f4f4f5;
 }
 
-.articles-container {
-	display: flex;
-	flex-direction: column;
+.card-container {
+	padding: 30px;
+	padding-bottom: 5px;
 }
 
-.articles-wrapper {
-	padding-top: 50px;
-	padding-bottom: 50px;
+.card-header {
 	display: flex;
-	flex-direction: column;
+	align-items: center;
 }
 
-.articles-article {
-	padding-top: 0px;
-	padding-left: 35px;
-	padding-bottom: 20px;
-	border-left: 2px solid #f4f4f5;
+.card-icon {
+	font-size: 25px;
+	/* color: var(--tertiary-color); */
+}
+
+.hr {
+	width: 80%; /* Set the width to span the entire container */
+	height: 1px; /* Adjust the height of the line */
+	background: linear-gradient(
+		to right,
+		transparent,
+		#6c757d,
+		transparent
+	); /* Faded gradient effect */
+	margin: 5px 0; /* Add some margin for spacing */
+}
+
+.card-title {
+	color: var(--secondary-color);
+	font-size: 20px;
+	padding-left: 20px;
+	/* font-weight: 650; */
+}
+
+.card-body {
+	padding-top: 20px;
+	font-size: 15px;
+}
+
+.works-body {
+	margin-bottom: 10px;
+}
+
+.work {
+	display: flex;
+	padding-bottom: 40px;
+}
+
+.work-image {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	outline: 6px solid white;
+	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
+}
+
+.work-title {
+	font-size: 15px;
+	font-weight: 700;
+	padding-left: 20px;
+	margin-top: -3px;
+	color: var(--secondary-color);
+}
+
+.work-subtitle {
+	position: absolute;
+	font-size: 12px;
+	color: var(--secondary-color);
+	padding-top: 22px;
+	padding-left: 50px;
+}
+
+.work-duration {
+	position: absolute;
+	width: 350px;
+	font-size: 12px;
+	padding-top: 20px;
+	text-align: right;
+	color: var(--tertiary-color);
+}
+
+.work-bullet-points {
+	height: 100px;
 	width: 100%;
-} */
-
-.work-experience-container {
-	display: flex;
-	justify-content: left;
-	padding-top: 25px;
-	margin-top: 120px;
-}
-
-.work-experience-logo {
-	display: flex;
-	position: fixed;
-	border: 1px solid white;
-	border-radius: 50%;
-	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-	top: 4vh;
-	margin-right: 20px; /* Add some space between logo and details */
-}
-
-.work-experience-details {
-	display: flex;
-	flex-direction: column;
-}
-
-.work-experience-company {
-	font-size: 24px;
-	font-weight: bold;
-	color: #333;
-}
-
-.work-experience-title {
-	font-size: 18px;
-	color: #555;
-}
-
-.work-experience-stuff {
-	display: flex;
-	justify-content: space-between;
-}
-
-.work-experience-duration {
-	font-size: 14px;
-	color: #888;
-	/* text-align: right; */
-	margin-top: 5px;
-}
-
-.work-experience-technologies {
-	font-size: 16px;
-	color: #555;
-	margin-top: 10px;
-}
-
-.work-experience-description {
 	margin-top: 20px;
+	font-size: 12px;
+	padding-top: 5px;
+}
+
+.work-bullet-points li {
+	list-style-type: disc; /* Use bullet points */
+	margin-left: 15px;
 }
 
 @media (max-width: 1024px) {
-	.articles-title {
+	.work-title {
 		width: 100% !important;
 	}
 
-	.articles-subtitle {
+	.work-subtitle {
 		width: 100% !important;
 	}
 }
