@@ -82,27 +82,6 @@ const Homepage = () => {
 						<div style={logoStyle}>
 							<Logo width={logoSize} link={false} />
 						</div>
-					</div>
-
-					<div className="homepage-container">
-						<div className="homepage-first-area">
-							<div className="homepage-first-area-left-side">
-								<div className="title homepage-title">
-									{INFO.homepage.title}
-								</div>
-
-								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.description}
-								</div>
-							</div>
-
-							<div className="homepage-first-area-right-side">
-								<div className="homepage-works">
-									<Skills />
-								</div>
-							</div>
-						</div>
-
 						<div className="homepage-socials">
 							<h4 className="socials-header">My Socials</h4>
 							<div className="socials-icons">
@@ -146,6 +125,29 @@ const Homepage = () => {
 										className="homepage-social-icon"
 									/>
 								</a>
+							</div>
+						</div>
+					</div>
+
+					<div className="homepage-container">
+						<div className="homepage-first-area">
+							<div className="homepage-first-area-left-side">
+								<div className="title homepage-title">
+									{INFO.homepage.title}
+								</div>
+
+								<div className="subtitle homepage-subtitle">
+									{INFO.homepage.description1}
+								</div>
+								<div className="subtitle homepage-subtitle">
+									{INFO.homepage.description2}
+								</div>
+							</div>
+
+							<div className="homepage-first-area-right-side">
+								<div className="homepage-works">
+									<Skills />
+								</div>
 							</div>
 						</div>
 
