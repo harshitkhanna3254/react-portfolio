@@ -111,7 +111,7 @@ function article_2() {
 		date: "21 Feb 2023",
 		title: "CAGED System in guitar",
 		description: `The CAGED system is a fundamental concept for guitarists, enabling them to navigate the fretboard and understand chord relationships. It derives from five common open chord shapes: C, A, G, E, and D. By learning these shapes and moving them up and down the neck, guitarists can play chords in different keys, facilitating improvisation and unlocking the guitar's full potential. The CAGED system forms a solid foundation for chord knowledge and helps players visualize chord patterns and progressions with ease.`,
-		keywords: ["CAGED system in guitar theory", ,],
+		keywords: ["CAGED system in guitar theory"],
 		style: `
 				.article-content {
 					display: flex;

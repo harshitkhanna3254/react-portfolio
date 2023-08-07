@@ -75,7 +75,11 @@ const Resume = () => {
 												<div className="resume-works-body">
 													<div className="resume-work">
 														<img
-															src="./smith-logo.webp"
+															src={
+																process.env
+																	.PUBLIC_URL +
+																"/images/smith-logo.webp"
+															}
 															alt="smith"
 															className="resume-work-image"
 														/>
@@ -155,7 +159,11 @@ const Resume = () => {
 
 													<div className="resume-work">
 														<img
-															src="./uhg-logo.png"
+															src={
+																process.env
+																	.PUBLIC_URL +
+																"/images/uhg-logo.png"
+															}
 															alt="uhg"
 															className="resume-work-image"
 														/>
@@ -316,7 +324,11 @@ const Resume = () => {
 
 													<div className="resume-work">
 														<img
-															src="./idemia-logo.jpeg"
+															src={
+																process.env
+																	.PUBLIC_URL +
+																"/images/idemia-logo.jpeg"
+															}
 															alt="idemia"
 															className="resume-work-image"
 														/>

@@ -15,7 +15,10 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./smith-logo.webp"
+								src={
+									process.env.PUBLIC_URL +
+									"/images/smith-logo.webp"
+								}
 								alt="smith"
 								className="work-image"
 							/>
@@ -30,7 +33,10 @@ const Works = () => {
 
 						<div className="work">
 							<img
-								src="./uhg-logo.png"
+								src={
+									process.env.PUBLIC_URL +
+									"/images/uhg-logo.png"
+								}
 								alt="uhg"
 								className="work-image"
 							/>
@@ -45,7 +51,10 @@ const Works = () => {
 
 						<div className="work">
 							<img
-								src="./idemia-logo.jpeg"
+								src={
+									process.env.PUBLIC_URL +
+									"/images/idemia-logo.jpeg"
+								}
 								alt="idemia"
 								className="work-image"
 							/>

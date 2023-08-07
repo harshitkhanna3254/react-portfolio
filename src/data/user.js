@@ -3,7 +3,7 @@ const INFO = {
 		title: "My Portfolio",
 		name: "Harshit Khanna",
 		email: "harshitkhanna3254@gmail.com",
-		logo: "../hk-logo-3.jpeg",
+		logo: process.env.PUBLIC_URL + "/images/hk-logo-3.jpeg",
 	},
 
 	socials: {

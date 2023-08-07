@@ -8,7 +8,7 @@ import Logo from "../components/common/logo";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
-import { faBriefcase, faUserGraduate } from "@fortawesome/free-solid-svg-icons";
+import { faUserGraduate } from "@fortawesome/free-solid-svg-icons";
 
 import "./styles/education.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -75,7 +75,11 @@ const Education = () => {
 												<div className="education-card-body-inner">
 													<div className="education">
 														<img
-															src="./rice-uni-logo.png"
+															src={
+																process.env
+																	.PUBLIC_URL +
+																"/images/rice-uni-logo.png"
+															}
 															alt="smith"
 															className="university-image"
 														/>
@@ -181,7 +185,11 @@ const Education = () => {
 
 													<div className="education">
 														<img
-															src="./ipu-logo.png"
+															src={
+																process.env
+																	.PUBLIC_URL +
+																"/images/ipu-logo.png"
+															}
 															alt="uhg"
 															className="university-image"
 														/>

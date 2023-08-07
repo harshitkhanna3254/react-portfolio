@@ -8,7 +8,7 @@ const DownloadButton = ({ target }) => {
 	};
 
 	return (
-		<button onClick={handleClick} className="download-button" role="button">
+		<button onClick={handleClick} className="download-button">
 			Show Resume
 		</button>
 	);
