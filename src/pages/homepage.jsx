@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 
-import { faMailBulk, faCode } from "@fortawesome/free-solid-svg-icons";
+import {
+	faMailBulk,
+	faCode,
+	faHashtag,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
@@ -83,7 +87,16 @@ const Homepage = () => {
 							<Logo width={logoSize} link={false} />
 						</div>
 						<div className="homepage-socials">
-							<h4 className="socials-header">My Socials</h4>
+							<div className="socials-header">
+								<FontAwesomeIcon
+									icon={faHashtag}
+									className="homepage-social-icon-main"
+								/>
+								<span className="homepage-social-text-main">
+									Socials
+								</span>
+							</div>
+							<hr></hr>
 							<div className="socials-icons">
 								<a
 									href={INFO.socials.github}
