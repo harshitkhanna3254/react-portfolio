@@ -186,7 +186,7 @@ const Homepage = () => {
 
 						<div className="homepage-projects-text-container">
 							<FontAwesomeIcon
-								icon={faHammer}
+								icon={faClipboard}
 								className="homepage-projects-icon"
 							/>
 							<span className="homepage-projects-text">
