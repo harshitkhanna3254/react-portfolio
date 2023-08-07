@@ -50,7 +50,7 @@ const INFO = {
 	},
 
 	articles: {
-		title: "I like to write sometimes",
+		title: "Articles I've Written",
 		description: `Welcome to my articles page. This is where you'll find my long-form writing on the things I'm most passionate about: music, guitar, and philosophy.
 			I'm a firm believer that the best way to learn is by doing. That's why I like to write about my own experiences and the challenges I've faced. I hope my writing will inspire you to think differently and to never give up on your dreams.
 			Whether you're a seasoned developer, a musician, or a philosopher, I hope you'll find something useful on this page.`,

@@ -42,7 +42,7 @@ const Education = () => {
 					</div>
 
 					<div className="education-main-container">
-						<div className="title education-title">
+						<div className="education-title">
 							<div className="education-title-text">
 								{INFO.education.title}
 							</div>

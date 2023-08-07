@@ -38,9 +38,7 @@ const Projects = () => {
 						</div>
 					</div>
 					<div className="projects-container">
-						<div className="title projects-title">
-							What I've built
-						</div>
+						<div className="projects-title">What I've Built</div>
 
 						<div className="subtitle projects-subtitle">
 							Welcome to my showcase of creative coding projects!

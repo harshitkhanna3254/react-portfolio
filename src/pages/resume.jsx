@@ -42,7 +42,7 @@ const Resume = () => {
 					</div>
 
 					<div className="resume-main-container">
-						<div className="title resume-title">
+						<div className="resume-title">
 							<div className="resume-title-text">
 								{INFO.resume.title}
 							</div>

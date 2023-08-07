@@ -24,6 +24,10 @@
 }
 
 .resume-title-text {
+	width: 100% !important;
+	font-family: var(--secondary-font);
+	font-size: 50px;
+	color: var(--primary-color);
 }
 
 .resume-download-button {
