@@ -1,7 +1,6 @@
 {
 	"name": "reactfolio",
 	"version": "1.1.0",
-	"homepage": "https://harshitkhanna3254.github.io/react-portfolio",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
 		"name": "Harshit Khanna"
@@ -27,8 +26,6 @@
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
 		"postdeploy": "echo 'Deployed Successfully!'",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
