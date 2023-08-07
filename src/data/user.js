@@ -87,7 +87,7 @@ const INFO = {
 				"My portfolio (this website) built with React wihtout any UI libraries",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png",
 			linkText: "View Project",
-			link: "https://github.com/harshitkhanna3254/portfolio",
+			link: "https://github.com/harshitkhanna3254/react-portfolio",
 		},
 		{
 			title: "Kaggle ML Competitions",
