@@ -5,6 +5,8 @@ import {
 	faMailBulk,
 	faCode,
 	faHashtag,
+	faHammer,
+	faClipboard,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -165,7 +167,35 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-projects">
+							<div className="homepage-projects-text-container">
+								<FontAwesomeIcon
+									icon={faHammer}
+									className="homepage-projects-icon"
+								/>
+								<span className="homepage-projects-text">
+									My Projects
+								</span>
+							</div>
+
+							<div className="centered-hr-container">
+								<hr className="centered-hr"></hr>
+							</div>
+
 							<AllProjects />
+						</div>
+
+						<div className="homepage-projects-text-container">
+							<FontAwesomeIcon
+								icon={faHammer}
+								className="homepage-projects-icon"
+							/>
+							<span className="homepage-projects-text">
+								Articles & Work Experience
+							</span>
+						</div>
+
+						<div className="centered-hr-container">
+							<hr className="centered-hr"></hr>
 						</div>
 
 						<div className="homepage-after-title">
