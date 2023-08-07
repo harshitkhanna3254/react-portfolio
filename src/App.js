@@ -25,14 +25,14 @@ function App() {
 	return (
 		<div className="App">
 			<Routes>
-				<Route path="/" element={<Homepage />} />
-				<Route path="/about" element={<About />} />
-				<Route path="/projects" element={<Projects />} />
-				<Route path="/education" element={<Education />} />
-				<Route path="/resume" element={<Resume />} />
-				<Route path="/articles" element={<Articles />} />
-				<Route path="/article/:slug" element={<ReadArticle />} />
-				<Route path="/contact" element={<Contact />} />
+				<Route exact path="/" element={<Homepage />} />
+				<Route exact path="/about" element={<About />} />
+				<Route exact path="/projects" element={<Projects />} />
+				<Route exact path="/education" element={<Education />} />
+				<Route exact path="/resume" element={<Resume />} />
+				<Route exact path="/articles" element={<Articles />} />
+				<Route exact path="/article/:slug" element={<ReadArticle />} />
+				<Route exact path="/contact" element={<Contact />} />
 				<Route path="*" element={<Notfound />} />
 			</Routes>
 		</div>
