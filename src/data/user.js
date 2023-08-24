@@ -16,7 +16,7 @@ const INFO = {
 		title: "Harshit Khanna",
 		description1: `I'm Harshit. I have a strong background in working with Distributed Backend Systems and I'm equally adept with Frontend and DevOps, having spent around 30 months as a Software Engineer at UnitedHealth Group and being a summer intern at Smith & Associates.
 			Currently, I am pursuing my Masters at Rice University, where I am focusing on the exciting field of Data Science to expand my skill set and knowledge.`,
-		description2: `When I'm not coding, you will find me listing to 60s - 80s music, watching crime dramas, or cheering on Real Madrid. Hala Madrid!`,
+		description2: `When I'm not coding, you will find me listening to 60s - 80s music, watching crime dramas, or cheering on Real Madrid. Hala Madrid!`,
 	},
 
 	about: {
