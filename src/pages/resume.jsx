@@ -128,31 +128,60 @@ const Resume = () => {
 																saving{" "}
 																<strong>
 																	$300,000
+																	monthly
 																</strong>{" "}
-																monthly.
+																.
 															</li>
 															<li>
 																Effectively
 																decoupled a PHP
 																Laravel
-																application.
-																Built
+																application and
+																created
 																event-based REST
 																endpoints. Used
 																PHP Artisan
 																Tinker to write
 																and execute
-																tests, incresing
-																the test
-																coverage from ~
+																tests,
+																increasing the
+																test coverage
+																from
 																<strong>
-																	35%&nbsp;
+																	&nbsp;~35%&nbsp;
 																</strong>
 																to
 																<strong>
 																	&nbsp;92%
 																</strong>
 																.
+															</li>
+															<li>
+																Successfully
+																transitioned
+																services to AWS
+																Fargate,
+																resulting in{" "}
+																<strong>
+																	~15%
+																	reduction
+																</strong>{" "}
+																in AWS costs.
+															</li>
+															<li>
+																Performed data
+																wrangling and
+																analysis on
+																Google Analytics
+																data to uncover
+																correlations
+																between user
+																behavior,
+																courses,
+																departments, and
+																optimal
+																engagement
+																timings.
 															</li>
 														</ul>
 													</div>
@@ -215,26 +244,51 @@ const Resume = () => {
 																claim processing
 																time by{" "}
 																<strong>
-																	50%
+																	45%
 																</strong>
 																.
 															</li>
 															<li>
-																Built Jenkins
-																CI/CD pipelines,
-																Dockerized the
-																microservices
-																and deployed the
+																Developed
+																Jenkins CI/CD
+																pipelines,
+																dockerized the
+																microservices,
+																and pushed the
 																containers on
 																AWS EC2. Used
 																Istio mesh and
 																Kubernetes for
 																container
 																orchestration
-																with AWS EKS.
+																with AWS EKS;
+																reaching a{" "}
+																<strong>
+																	~25%
+																	reduction
+																</strong>{" "}
+																in downtime.
 															</li>
 															<li>
-																Built
+																Wrote AWS Athena
+																queries to catch
+																regressions and
+																derive insights
+																from the
+																benchmark runs
+																and wrote Python
+																scripts to
+																create JIRA work
+																items for the
+																Claim Analysis
+																team to
+																investigate
+																aiding the team
+																in analyzing
+																inefficiencies.
+															</li>
+															<li>
+																Wrote
 																microservices
 																using gRPC
 																framework and
@@ -251,9 +305,12 @@ const Resume = () => {
 																.
 															</li>
 															<li>
-																Built stateful
-																services in
-																Spring Boot for{" "}
+																Architected and
+																implemented
+																multiple
+																features through
+																stateful
+																services for the{" "}
 																<strong>
 																	Claims
 																	Processing
@@ -265,29 +322,7 @@ const Resume = () => {
 																the caching
 																layer.
 															</li>
-															<li>
-																Wrote AWS Athena
-																queries to catch
-																regressions and
-																derive insights
-																from the
-																benchmark runs
-																and built a
-																system to setup
-																alerting through
-																Python scripts
-																to create a JIRA
-																work item for
-																the first party
-																service team to
-																investigate
-																helping the team
-																analyze
-																inefficiences in
-																the Claim
-																Processing
-																Lifecycle.
-															</li>
+
 															<li>
 																Led the complete
 																revamp of the
@@ -297,8 +332,12 @@ const Resume = () => {
 																converting Perl
 																Scripts to
 																Python,
+																significantly
+																reducing the
+																downtime and
 																increasing the
-																speed by
+																validation speed
+																by over
 																<strong>
 																	&nbsp;30
 																	seconds
@@ -350,21 +389,27 @@ const Resume = () => {
 													<div className="resume-work-details">
 														<ul className="resume-work-details-list">
 															<li>
-																Built an
-																authentication
-																gateway and a
+																Designed a
 																telemetry web
-																app with
-																dashboards in
-																React to monitor
-																consumer
-																traffic.
+																app with a
+																dashboard to
+																monitor consumer
+																traffic,
+																increasing
+																traffic
+																visibility.
 															</li>
 															<li>
 																Reconfigured the
 																Payment Gateway
 																to accommodate
-																crypto payments.
+																crypto payments;
+																achieved a{" "}
+																<strong>
+																	15%
+																</strong>{" "}
+																increase in web
+																traffic.
 															</li>
 														</ul>
 													</div>
