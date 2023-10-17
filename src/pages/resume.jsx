@@ -91,7 +91,7 @@ const Resume = () => {
 															Intern
 														</div>
 														<div className="resume-work-duration">
-															May 2023 - Aug 2023
+															May 2023 - Present
 														</div>
 													</div>
 													<div className="resume-work-skills">

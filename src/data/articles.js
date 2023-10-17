@@ -355,6 +355,89 @@ function article_3() {
 	};
 }
 
-const myArticles = [article_1, article_2, article_3];
+function article_4() {
+	return {
+		date: "17 Oct 2023",
+		title: "Valhalla: The Graduate Student Bar at Rice University",
+		description: `A small bar in the middle of the campus ehich serves cheap but good beer. Almost every friday night is pretty eventful. Almost.`,
+		style: ``,
+		keywords: ["Valhalla", "Rice University"],
+		body: (
+			<React.Fragment>
+				<h1>Valhalla: The Graduate Student Bar at Rice University</h1>
+
+				<p>
+					If you're a grad student at Rice or even just a visitor,
+					there's one spot that's hard to miss: Valhalla. Tucked away,
+					this bar is much more than a place to grab a drink. It's an
+					integral part of the grad student experience and I love
+					being a bartender every Friday night at 11 PM.
+				</p>
+
+				<h2>Backdrop</h2>
+				<p>
+					Founded in the 1970s and named after the hall from Norse
+					mythology, Valhalla has become a staple on Rice's campus.
+					Operated mainly by grad student volunteers, it’s a bar that
+					understands its patrons because, well, it's run by them.
+				</p>
+
+				<h2>Atmosphere and Offerings</h2>
+				<p>
+					The interior is both cozy and historic, a testament to the
+					countless students who’ve passed through its doors. Dark
+					woods, ambient lighting, and walls covered in photographs
+					and mementos narrate its rich history. There's pictures of
+					the previous bartenders, which have been here for around 25
+					years. Although sometimes rude, they are kinda important for
+					the vibe of the bar lol.
+				</p>
+
+				<p>
+					One of Valhalla's undeniable perks is the affordable beer
+					selection. As an MCS student and bartender at Valhalla, I've
+					had the chance to explore a myriad of brews. The experience
+					is enlightening, and yes, occasionally I might slide a free
+					drink to my friends (Looking at you Desi gang and the
+					Smoking Break group) . But it's not just about the beers;
+					it’s about the conversations and connections formed over
+					them which are always fun.
+				</p>
+
+				<h2>More Than Just Drinks</h2>
+				<p>
+					Post my Friday evening shift, Valhalla transitions from a
+					workplace to a relaxation spot for me. With friends, it
+					becomes our unwind zone. There's dancing, sharing stories,
+					and a collective sigh of relief as we momentarily cast our
+					academic burdens aside. Also, got a couple of wild stories.
+					Not for here
+				</p>
+
+				<p>
+					Valhalla is also home to various events that amplify it's
+					appeal. From the iconic Beer Bike event to many
+					student-hosted events, there's always something to look
+					forward to. And the beer is cheap so there's nowhere else to
+					go.
+				</p>
+
+				<h2>Fuck Willy's Pub</h2>
+				<p>Cringey undergrads. (I was the same 5 years back)</p>
+
+				<h2>I'll genuinely miss it</h2>
+				<p>
+					Valhalla isn't just a bar; it's a reflection of the grad
+					life at Rice. It’s a place where we bond, celebrate, and
+					sometimes find solace from the academic hustle. For anyone
+					new to Rice or just passing through, a visit to Valhalla is
+					a must.
+				</p>
+			</React.Fragment>
+		),
+	};
+}
+
+const myArticles = [article_4, article_2, article_3, article_1];
 
 export default myArticles;
